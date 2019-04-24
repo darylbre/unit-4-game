@@ -12,6 +12,7 @@
     <!-- Added a link to Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
     <header><h1>CrystalsCollector!</h1></header>
@@ -26,13 +27,41 @@
 
     <p>Each time when the game starts, the game will change the values of each crystal.</p>
 
-<button type="button" class="btn btn-primary btn-lg">Large button</button>
-<button type="button" class="btn btn-secondary btn-lg">Large button</button>
-<button type="button" class="btn btn-primary btn-lg">Large button</button>
-<button type="button" class="btn btn-secondary btn-lg">Large button</button>
-<style>
+</div>
+<div class="numberToMatch">
+    <h2>Number To Get:
+        <span id= "randomNumber"></span>
+    </h2>
+</div>
+<div class="winsAndLosses">
+    <h2>Wins:
+        <span id= "numberWins"></span>
+        </br>
+        Losses: 
+        <span id= "numberLosses"></span>
+    </h2>
+</div>
+<div class="gems">
 
-</style>
+        <img src="https://www.dreamstime.com/stock-illustration-amazing-colorful-diamond-quartz-rainbow-flame-blue-aqua-aura-crystal-cluster-closeup-macro-isolated-white-background-abstract-image94614425" class=gemImage id= "four" alt="diamond-quartz">
+        
+        <img src="https://www.dreamstime.com/stock-illustration-amazing-colorful-diamond-quartz-rainbow-flame-blue-aqua-aura-crystal-cluster-closeup-macro-isolated-white-background-abstract-image94614425" class=gemImage id= "four" alt="diamond-quartz"> 
 
+    
+
+<img src="https://www.dreamstime.com/stock-illustration-amazing-colorful-diamond-quartz-rainbow-flame-blue-aqua-aura-crystal-cluster-closeup-macro-isolated-white-background-abstract-image94614425" class=gemImage id= "three" alt="diamond-quartz">
+   
+<img src="https://www.dreamstime.com/stock-illustration-amazing-colorful-diamond-quartz-rainbow-flame-blue-aqua-aura-crystal-cluster-closeup-macro-isolated-white-background-abstract-image94614425" class=gemImage id= "four" alt="diamond-quartz">
+</div>
+<div class="userTotal">
+    <h2>Your total score is:
+        <span id="finalTotal"></span>
+    </h2>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+
+
+<script src="./assets/javascript/game.js"></script>
 </body>
 </html>
