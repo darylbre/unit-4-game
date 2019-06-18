@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,60 +9,69 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <!-- Added link to the jQuery Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
+
     <!-- Added a link to Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+
 <body>
-    <header><h1>CrystalsCollector!</h1></header>
+    <header>
+        <h1>CrystalsCollector!<img src="assets/images/crystal.jpg" class=gemImage id="one" alt="diamond-quartz"
+                style="width:150px;height:150px"></h1>
+    </header>
 
-    <p>You will be given a random number at the start of the game.</p>
+    <p>You will be given a random number at the start of the game.
 
-    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total
+        score.
 
-    <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+        You win the game by matching your total score to random number, you lose the game if your total score goes above
+        the random number.
 
-    <p>The value of each crystal is hidden until you click on it.</p>
+        The value of each crystal is hidden until you click on it.
 
-    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        Each time when the game starts, the game will change the values of each crystal.</p>
 
-</div>
-<div class="numberToMatch">
-    <h2>Number To Get:
-        <span id= "randomNumber"></span>
-    </h2>
-</div>
-<div class="winsAndLosses">
-    <h2>Wins:
-        <span id= "numberWins"></span>
-        </br>
-        Losses: 
-        <span id= "numberLosses"></span>
-    </h2>
-</div>
-<div class="gems">
+    </div>
+    <div class="numberToMatch">
+        <h2>Number To Get:
+            <span id="randomNumber"></span>
+        </h2>
+    </div>
+    <div class="winsAndLosses">
+        <h2>Wins:
+            <span id="numberWins"></span>
+            </br>
+            Losses:
+            <span id="numberLosses"></span>
+        </h2>
+    </div>
+    <div class="gems">
 
-        <img src="https://www.dreamstime.com/stock-illustration-amazing-colorful-diamond-quartz-rainbow-flame-blue-aqua-aura-crystal-cluster-closeup-macro-isolated-white-background-abstract-image94614425" class=gemImage id= "four" alt="diamond-quartz">
-        
-        <img src="https://www.dreamstime.com/stock-illustration-amazing-colorful-diamond-quartz-rainbow-flame-blue-aqua-aura-crystal-cluster-closeup-macro-isolated-white-background-abstract-image94614425" class=gemImage id= "four" alt="diamond-quartz"> 
+        <img src="assets/images/crystal.jpg" class=gemImage id="one" alt="diamond-quartz"
+            style="width:150px;height:200px">
 
-    
+        <img src="assets/images/crystal.jpg" class=gemImage id="two" alt="diamond-quartz"
+            style="width:150px;height:200px">
 
-<img src="https://www.dreamstime.com/stock-illustration-amazing-colorful-diamond-quartz-rainbow-flame-blue-aqua-aura-crystal-cluster-closeup-macro-isolated-white-background-abstract-image94614425" class=gemImage id= "three" alt="diamond-quartz">
-   
-<img src="https://www.dreamstime.com/stock-illustration-amazing-colorful-diamond-quartz-rainbow-flame-blue-aqua-aura-crystal-cluster-closeup-macro-isolated-white-background-abstract-image94614425" class=gemImage id= "four" alt="diamond-quartz">
-</div>
-<div class="userTotal">
-    <h2>Your total score is:
-        <span id="finalTotal"></span>
-    </h2>
-</div>
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
-<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+        <img src="assets/images/crystal.jpg" class=gemImage id="three" alt="diamond-quartz"
+            style="width:150px;height:200px">
+
+        <img src="assets/images/crystal.jpg" class=gemImage id="four" alt="diamond-quartz"
+            style="width:150px;height:200px">
+    </div>
+    <div class="userTotal">
+        <h2>Your total score is:
+            <span id="finalTotal"></span>
+        </h2>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
 
 
-<script src="./assets/javascript/game.js"></script>
+    <script src="./assets/javascript/game.js"></script>
 </body>
+
 </html>
